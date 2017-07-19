@@ -1,6 +1,7 @@
 language: java
-before_script:
-	- "npm install -g se-interpreter"
+jdk: jdk1.8.0_121
+#before_script:
+# - "npm install -g se-interpreter"
 script:
 	- "se-interpreter /sp-elsevier/interpreter-config.json"
 env:
