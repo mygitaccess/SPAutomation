@@ -1,12 +1,3 @@
 language: java
 jdk: jdk1.8.0_121
-#before_script:
-# - "npm install -g se-interpreter"
-script:
-	- "se-interpreter /sp-elsevier/interpreter-config.json"
-env:
-	global:
-		- SAUCE_USERNAME=saucelabscompunnel
-		- secure:pass123
-        
         
