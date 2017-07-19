@@ -2,8 +2,10 @@ language: java
 before_script:
 	- "npm install -g se-interpreter"
 script:
-	- "se-interpreter G:/IIPL/TestTravisGIT/sp-elsevier/interpreter-config.json"
+	- "se-interpreter /sp-elsevier/interpreter-config.json"
 env:
 	global:
 		- SAUCE_USERNAME=saucelabscompunnel
 		- secure:pass123
+        
+        
